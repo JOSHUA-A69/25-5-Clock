@@ -1,3 +1,15 @@
+/* App.css */
+body {
+  background-color: #e0f7e9; /* Light green background */
+  font-family: 'Roboto', sans-serif; /* Elegant font */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
   margin-top: 50px;
@@ -5,8 +17,26 @@
 
 #break-label, #session-label {
   margin: 20px;
+  font-size: 1.2em;
+  color: #333; /* Darker color for better contrast */
 }
 
 button {
   margin: 5px;
+  padding: 10px 20px;
+  background-color: #4caf50; /* Match with light green theme */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+button:active {
+  background-color: #388e3c; /* Even darker green on click */
 }
